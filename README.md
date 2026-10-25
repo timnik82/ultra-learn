@@ -13,7 +13,14 @@ The learner does the thinking: recall, predict, explain, attempt, and try again 
 
 ## Use
 
-Place this directory in your AI agent's skills directory, preserving `SKILL.md`, `assets/`, and `references/`. Your agent must support Markdown skills; installation paths vary by tool.
+Place this directory in your AI agent's skills directory, preserving `SKILL.md`, `assets/`, and `references/`. The skill follows the [Agent Skills](https://agentskills.io/specification) format. Known install locations:
+
+| Tool | Personal (all projects) | Per repository | Invoke |
+|------|-------------------------|----------------|--------|
+| Claude Code | `~/.claude/skills/ultra-learn/` | `.claude/skills/ultra-learn/` | `/ultra-learn` or automatic |
+| Codex | `~/.agents/skills/ultra-learn/` | `.agents/skills/ultra-learn/` | `$ultra-learn` or automatic |
+
+Make sure `SKILL.md` sits directly inside `ultra-learn/`, with no extra wrapper folder. Codex's older `~/.codex/skills/` location is deprecated.
 
 Example prompts:
 
@@ -21,7 +28,7 @@ Example prompts:
 - “Help me learn statistics for interpreting experiments. Start by checking what I know.”
 - “Let me explain this concept, then check my reasoning.”
 
-For continuing programmes, the skill saves one Markdown record per topic in your chosen learning directory, or in `learning/` in the current workspace. Keep personal learning records outside the installed skill directory. Review dates in those files do not create automatic reminders.
+For continuing programmes, the skill saves one Markdown record per topic in your chosen learning directory, defaulting to a user-level folder such as `~/learning/` rather than the current working directory, so records do not end up inside code repositories. Keep personal learning records outside the installed skill directory. Review dates in those files do not create automatic reminders.
 
 ## Files
 
