@@ -21,7 +21,7 @@ Status: not started / learning / passed today / retained / reopened.
 - learning: practice has begun; criteria not yet met.
 - passed today: teach-back and unaided performance met the criteria in a session; retention not yet shown.
 - retained: all required criteria demonstrated again unaided after a delayed review.
-- reopened: a delayed review failed; the affected criterion is back in practice. Earlier pass evidence is kept.
+- reopened: a delayed review of a required criterion's card failed; that criterion is back in practice. Earlier pass evidence is kept. Failed optional cards are rescheduled only.
 
 ## Module criteria and evidence
 
