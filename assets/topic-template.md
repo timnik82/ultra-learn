@@ -5,8 +5,9 @@
 - Test or real-world use (format, time pressure):
 - Current level (demonstrated evidence):
 - Source material (links, editions, relevant sections):
+- Learning directory (where this file lives):
 - Current module:
-- Next review date:
+- Next review date (derived: earliest Due in Review cards):
 - Review intervals (adjustable): 1, 3, 7, 16, 35 days from actual review
 
 ## Map
@@ -14,7 +15,13 @@
 | ID | Module / purpose | Depends on | Common sticking point | Priority | Status |
 |----|------------------|------------|-----------------------|----------|--------|
 
-Status: not started / learning / passed today / needs review.
+Status: not started / learning / passed today / retained / reopened.
+
+- not started: no practice on this module yet.
+- learning: practice has begun; criteria not yet met.
+- passed today: teach-back and unaided performance met the criteria in a session; retention not yet shown.
+- retained: all required criteria demonstrated again unaided after a delayed review.
+- reopened: a delayed review of a required criterion's card failed; that criterion is back in practice. Earlier pass evidence is kept. Failed optional cards are rescheduled only.
 
 ## Module criteria and evidence
 
@@ -50,7 +57,8 @@ Status: not started / learning / passed today / needs review.
 - Grading basis (source location or general knowledge; verification):
 - Agent feedback / explanation:
 - Learner's corrected production:
-- Unaided redo: passed / not yet / pending
+- Redo after explanation (repair evidence): passed / failed / pending (session ended before redo) / not applicable (no explanation given)
+- Fresh unaided task (performance evidence): passed / failed / not given
 - Calibration evidence (if used):
 - Module criteria met / still open:
 - Teach-back gaps and repairs:
