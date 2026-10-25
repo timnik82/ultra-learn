@@ -102,11 +102,11 @@ Return from the resource to a concrete practice task; collecting resources is no
 
 Organize the learner's own work without silently adding facts or replacing their reasoning.
 
-- Make cards from corrected mistakes and useful recall targets, and at least one per required module criterion: front = prompt, back = the learner's verified corrected answer or a stable pointer to it. Request a corrected attempt before treating an unresolved mistake as an answer key.
+- Make cards from corrected mistakes and useful recall targets, and at least one per required module criterion: front = prompt, back = the learner's verified production (the corrected answer where there was a mistake, otherwise the clean answer they gave) or a stable pointer to it. Request a corrected attempt before treating an unresolved mistake as an answer key.
 - Use expanding review intervals as an adjustable default: 1, 3, 7, 16, then 35 days. Each interval runs from the actual successful review date; after the final step, repeat 35 days unless adjusted. A failed or assisted answer returns to 1 day after correction. Adapt intervals to performance, deadlines, and user preference; these are scheduling choices, not guaranteed optimal timings.
 - Record actual due dates, last review results, and the current interval. At review, show the prompt first and wait before revealing the answer; do not display the full answer-bearing card table as the quiz.
 - Maintain a clean outline of the learner's produced notes. Keep agent feedback and unresolved corrections separately labelled in the log.
-- Record which criteria were demonstrated again after a delay. When all required criteria of a `passed today` module have been demonstrated again after a delay, set its status to `retained`. A failed review sets the module to `reopened` and returns the affected criterion to practice without erasing its earlier pass history; after a successful repair and unaided retest it goes back to `passed today`.
+- Record which criteria were demonstrated again after a delay. When all required criteria of a `passed today` module have been demonstrated again after a delay, set its status to `retained`. A failed review of a card for a required criterion sets the module to `reopened` and returns that criterion to practice without erasing its earlier pass history; after a successful repair and unaided retest it goes back to `passed today`. A failed optional or supplementary card is rescheduled but does not reopen the module.
 
 Due dates in a file do not create notifications. Only arrange reminders if the user requests them and a scheduling tool is available.
 
